@@ -1,3 +1,4 @@
+#Understanding Git : This is a modification to the file.
 #Let's store dictionary into a file
 student_scores = {'Rob':[10,20,30],
                   'Tommy':[34,45],
