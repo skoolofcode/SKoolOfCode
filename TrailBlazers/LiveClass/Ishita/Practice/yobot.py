@@ -3,7 +3,7 @@ def intro ():
 
 
 def language():
-	lang = int(input("Hi! Tell me if you speak: 1- English or 2- Bengali or 3- Hindi\n"))
+	lang = int(input("Hi! Tell me if you speak: 1- English or 2- Bengali or 3- Hindi or 4- Chinese(Simplified) or 5 - Arabic or 6 - Czech or 7 - French or 8 - Spanish \n"))
 	
 	if lang == "1":
 		print("Hello")
@@ -14,9 +14,23 @@ def language():
 			if lang == "3":
 				print("Namaste")
 			else:
-				print("Sorry, you entered an invalid value.")
-
-
+				if lang =="4":
+					print("Nǐ hǎo")
+				else: 
+					if lang == "5":
+						print("marhabaan")
+					else: 
+						if lang == "6":
+							print("Ahoj")
+						else:
+							if lang == "7":
+								print("Bonjour")
+							else:
+								if lang == "8":
+									print("Hola")
+								else: 
+									print("Sorry, you entered an invalid value.")							
+			
 def zodiac():
 	x=int(input("Now enter your birth year from 1996 - 2012.\n"))
 	print (x)
@@ -61,4 +75,3 @@ def zodiac():
 intro()
 language()			
 zodiac()
-
