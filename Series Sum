@@ -1,0 +1,36 @@
+#Problem: Series sum 
+
+
+user = int(input("Enter a number: "))
+
+if user == 10:
+	print("Sum o series from 1 to 10 = 55")
+
+elif user == 9:
+	print("Sum o series from 1 to 9 = 45")
+
+elif user == 8:
+	print("Sum o series from 1 to 8 = 36")
+
+elif user == 7:
+	print("Sum o series from 1 to 7 = 28")
+
+elif user == 6:
+	print("Sum o series from 1 to 6 = 21")
+
+elif user == 5:
+	print("Sum o series from 1 to 5 = 15")
+
+elif user == 4:
+	print("Sum o series from 1 to 4 = 10")
+
+elif user == 3:
+	print("Sum o series from 1 to 3 = 6 ")
+
+elif user == 2:
+	print("Sum o series from 1 to 2 = 3")
+
+elif user == 1:
+	print("Sum o series from 1 to 1 = 1")
+
+
