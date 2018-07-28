@@ -1,3 +1,7 @@
+#SKC : Very basic. But yes works for what it does.
+#SKC : Make it better - Take user input on number of digits. Write functions etc etc.
+#SKC : This needs more work. Please work on this for next week.
+
 #Password Generator
 import random
 print("Hello! I am a PASSWORD GENERATOR")

@@ -1,3 +1,5 @@
+#SKC : Good job. Works!
+#SKC : As a next steps - add a phrase as in problems and make the code more consise.
 import random
 import sys 
 def passwordfunction():

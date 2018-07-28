@@ -1,3 +1,6 @@
+#SKC : Good job with the logic.
+#SKC : Dont use global. Write functions. Use return.
+
 num = int(input("WHat is the number you would like me to tell you the sum of?"))
 
 x = 0

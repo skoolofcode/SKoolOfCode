@@ -1,3 +1,7 @@
+#SKC : Logic looks good. 
+#SKC : Test and Complete the code.
+#SKC : Imports are not done and remember input by default get you a string and not a number.
+
 print("Hi! We all know how difficult it is to set up passwords, especially when we want it to be for a secure account. A password which is secure. No worries! I will give you a password and a key number if you ever lose it. Enjoy!")
 print("P.S. DOn't worry, I don't hack into your account.")
 name = input("What is your name?")

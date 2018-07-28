@@ -1,3 +1,5 @@
+#SKC : Looks like you check-in the wrong file 
+
 sum=0
 while (9>sum):
 	N = int (input (" enter a positive number "))

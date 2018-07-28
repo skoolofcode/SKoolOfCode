@@ -1,3 +1,6 @@
+#SKC - Looks good and works!
+#SKC - Make it more concise
+
 def randomPassword ():
     import random
     charectars= random.choice ("abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ")
