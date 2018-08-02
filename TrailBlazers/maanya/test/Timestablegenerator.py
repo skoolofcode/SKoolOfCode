@@ -1,5 +1,3 @@
-#SKC : Nice! Good work.
-#SKC : Consider printing in a table format
 def timestablecode(n):
 	for i in range(1,11):
 		print(i,'*',n,'=', n * i)
