@@ -3,11 +3,9 @@
 #SKC : Can u do this without using global. Hint : Return the calcuated value from square function
 
 def Squared ():
+	candies = 0
 	for i in range (0, 542, 1):
 		squaredCandy= i * i 
-		global squaredCandy
-		print ( squaredCandy)
-Squared()
-def Amount (squaredCandy):
-	print ("this is the cost,",squaredCandy *.10)
-Amount(squaredCandy)
+		sumOfCandies = squaredCandy + candies
+		print ( sumOfCandies)
+	print ("this is the cost,",sumOfCandies *.10)
