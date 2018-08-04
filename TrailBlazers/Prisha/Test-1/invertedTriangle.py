@@ -3,4 +3,4 @@
 #SKC : Challange - Ask the user to provide the input for numer of lines to start with?
 n=int (input ("number of lines??"))
 for i in range (n+1,0,-1):
-    print((13-i) * " " + i * "*" + "*" *2)
+    print((n-i)*' '+i*'* '*2)
