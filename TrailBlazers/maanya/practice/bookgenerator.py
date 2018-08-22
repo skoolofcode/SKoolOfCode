@@ -1,4 +1,3 @@
-import sys
 def bookchoice():
 	print("Hello! I am here today to help you find some books that suite your liking!")
 	bookname = (input("What is your name:"))
