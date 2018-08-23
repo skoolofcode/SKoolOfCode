@@ -1,0 +1,52 @@
+def THG():
+	print("---Would YOU Survive THE HUNGER GAMES?---")
+	print("                   ")
+	print("                   ")
+	nope = 0
+	yes = 0
+	print("You are from District 12. You have been reaped to enter the Arena. What do you grab at The Cornucopia?")
+	print("Enter 1- I am going to grab a knife and a package of crackers!")
+	print("Enter 2- I will grab a backpack and a Bow and Quiver!")
+	print("Enter 3- I AM GOING TO RUN FOR IT AND HOPE I HAVE TONS OF SPONSORS!")
+	q1 = (input("Enter 1 or 2 or 3:"))
+	if q1 == '1':
+		nope = 1
+		yes = 0
+	if q1 == '2':
+		nope = 0
+		yes = 1
+	if q1 == '3':
+		nope = 1
+		yes=0
+	print("Okay. Now what do you plan to do?")
+	print("Enter 1- Stay and camp out in The Cornucopia. Nobody will come back... right?")
+	print("Enter 2- Go out and find shelter by the lake. I will Not die with water at my side...right?")
+	print("Enter 3- I will go into the woods and climb up a tree. I am sure I will not die unless there are Tracker Jackers... There are none... RIGHT?!")
+	q2 = (input("Enter 1 or 2 or 3:"))
+	if q2 =='1':
+		nope = nope + 1
+		yes = yes
+	if q2 == "2" or q2 == '3':
+		nope = nope
+		yes = yes + 1
+	print("Oh NO! It turns out the night was ice cold! What do you do? Reminder: You have NO SLEEPING BAG!")
+	print("Enter 1- I am Going To.... BUILD A FIRE!")
+	print("Enter 2- I will stay cold ;) I WILL SURVIVE!")
+	print("Enter 3- I will cover myself with dirt!")
+	print("Enter 4- DO YOU SERIOUSLY THINK THAT I WOULD NOT HAVE A SLEEPING BAG!")
+	q3 = (input("Enter 1,2,3,4: "))
+	if q3 == '1' or q3 == '2':
+		nope= nope + 1
+		yes= yes
+	if q3 == '3' or q3 == '4':
+		nope = nope
+		yes = yes + 1
+	if nope > yes:
+		print("                                         ")
+		print("Sorry 🙁🙁🙁 You have NOT Survived The HUNGER GAMES! I guess THE ODDS WERE NOT IN YOUR FAVOR!")
+	if yes > nope:
+		print("                                                 ")
+		print("CONGRATS! 😊😊😊 YOU ARE THE ANNUAL HUNGER GAMES VICTOR! I guess THE ODDS WERE IN YOUR FAVOR after all, Huh!")
+	return
+
+THG()
