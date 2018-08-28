@@ -1,4 +1,4 @@
-from mcpi.minecraft import Minecraft
+from mcpi import minecraft
 mc = minecraft.Minecraft.create()
 stone = 1
 import time
