@@ -1,4 +1,4 @@
-gglobal namelist
+global namelist
 namelist={"Test":'Testflavor'}
 
 def NamePickCrust():
