@@ -1,5 +1,5 @@
 from mcpi.minecraft import Minecraft
-mc = Minecraft.create()
+mc = minecraft.Minecraft.create()
 stone = 1
 import time
 
