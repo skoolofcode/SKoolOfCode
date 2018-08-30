@@ -10,7 +10,7 @@ x,y,z = mc.player.getPos()
 
 mc.postToChat("Allright! 10 seconds to build!") 
 time. sleep(10)
-mc.player.setPos(x + 1000,y + 1000, z +1000)
+mc.player.setPos(x + 100,y, z +100)
 
 while True:
   time.sleep(10)
@@ -18,10 +18,7 @@ while True:
   if x == a:
      mc.postToChat("Well done! You have won!!!")
   else:
-    if y == b:
-       mc.postToChat("Well done! You have won!!!")
-    else:
-      if z == c:
+    if z == c:
         mc.postToChat("Well done! You have won!!!")
         
     
