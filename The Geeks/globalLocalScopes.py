@@ -2,6 +2,7 @@
 # Let's check that global variable is accessible by all child functions
 # Local variables can only be accessed in local scope
 
+
 black_var = 20
 
 def about():

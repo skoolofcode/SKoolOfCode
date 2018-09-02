@@ -12,7 +12,7 @@ def initWordList():
     def printGreen():
         color = "green"
         global global_worldList
-        print("printGreen : Hey! i can access ",color,global_worldList)
+        print("printGreen : Hey! i can access global and parent scope",color, worldList, global_worldList,lenghtOfWords,i)
         #Why i can't access worldList. Its global for 
         #print("printGreen : print word list", worldList)
     
