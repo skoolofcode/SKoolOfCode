@@ -1,0 +1,8 @@
+from mcpi.minecraft import Minecraft
+from time import sleep
+
+mc = Minecraft.create()
+mc.postToChat("Hello, this is mudit 3 version of Minecraft")
+mc.postToChat("This version will make you will teleport in the sky and fall back down at your same position")
+x, y, z = mc.player.getPos()
+mc.player.setPos(x, y+100, z)
