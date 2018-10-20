@@ -3,6 +3,7 @@
 #   1. Following the Design
 #   2. Write functions, their input parameters and respetive outputs
 #   3. Connect these functions to each other.
+#   4. No need to write all code implementation inside the function.
 
 #Define this as a global variable.
 listOfWords = ['skoolofcode', 'horses','redmond','puppies']
